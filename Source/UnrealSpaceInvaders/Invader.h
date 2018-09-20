@@ -29,7 +29,7 @@ public:
 
 	// Variables
 	UPROPERTY(EditAnyWhere)
-	UINT scoreWhenKilled = 10.0f;
+	int scoreWhenKilled = 10.0f;
 
 	// Declare Events
 	// DECLARE_EVENT_OneParam(AInvader, Died, UINT)
